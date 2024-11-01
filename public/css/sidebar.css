@@ -1,0 +1,180 @@
+
+@import '@fortawesome/fontawesome-free/css/all.css';
+
+
+
+.container {
+    display: flex;
+    height: 100%;
+  }
+  
+  .menu {
+    width: 159px; 
+    transition: width 0.3s, transform 0.3s;
+    z-index: 1000; 
+    margin-top: 0px;
+    margin-right: -13px;
+    margin-left: -12px;
+    padding-top: 20%;
+  }
+  .menu-container {
+    width: 100%;
+  }
+  
+  .profile-container {
+    padding: 10px;
+    text-align: center;
+  }
+
+
+  .menu-row {
+    padding: 10px 0;
+  }
+  
+  .menu-btn {
+    display: flex;
+    align-items: center;
+    padding: 21px 30px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+  
+  .menu-btn:hover {
+    background-color: #001d6627;
+  }
+  
+  .menu-active {
+    background-color: #001d6627;
+    color: white;
+    border-left: 4px solid #007bff;
+    font-size:17px;
+    font-weight: bold;
+  }
+
+  .menu-active i {
+    color: #001d66;
+  }
+
+
+  .menu-active .menu-text {
+    color: #001d66;
+  }
+  
+  .menu-icon-dashbord,
+  .menu-icon-doctor,
+  .menu-icon-schedule,
+  .menu-icon-appointment,
+  .menu-icon-profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-icon-dashbord-active i,
+  .menu-icon-doctor i,
+  .menu-icon-schedule i,
+  .menu-icon-appointment i,
+  .menu-icon-profile i {
+    font-size: 20px;
+  }
+  
+  .menu-icon-dashbord-active {
+    color: #001d66;
+  }
+  
+  .non-style-link-menu {
+    display: flex;
+    text-decoration: none;
+    color: inherit;
+    align-items: center;
+  }
+  
+  .non-style-link-menu-active {
+    color: #001d66;
+  }
+  
+  .menu-icon-dashbord i:before {
+    content: "\e3b2"; 
+  }
+  .menu-icon-department i:before {
+    content: "\f1ad"; 
+  }
+  
+  .menu-icon-doctor i:before {
+    content: "\f0f0";
+  }
+  
+  .menu-icon-schedule i:before {
+    content: "\f017"; 
+
+  } 
+  .menu-icon-profile i:before {
+    content: "\f2c2"; 
+
+  } 
+  
+  .menu-icon-appointment i:before {
+    content: "\f02d"; 
+  }
+  .menu-spacer {
+    height: 1px; 
+    background-color:#e7f7ff; 
+  }
+  
+
+  body {
+    font-family: Arial, sans-serif;
+  }
+  @media (max-width: 768px) {
+   
+  
+    .menu-btn {
+      padding: 10px; /* Adjust padding for icon-only buttons */
+    }
+    .menu {
+      width: 170px; /* Set width for the menu */
+    }
+  
+    .menu-closed {
+      transform: translateX(-100%); /* Hide the sidebar when closed */
+    }
+  
+
+  
+    .menu-spacer {
+      display: none; /* Hide spacer on smaller screens */
+    }
+  }
+  
+  @media (max-width: 468px) {
+    .menu-text {
+      display: none; /* Hide text on smaller screens */
+    }
+  
+    .menu-btn {
+      justify-content: center; /* Center the icon in the button */
+      padding: 10px; /* Adjust padding for icon-only buttons */
+    }
+    .menu {
+      width: 150px; /* Set width for the menu */
+    }
+  
+    .menu-closed {
+      transform: translateX(-100%); /* Hide the sidebar when closed */
+    }
+  
+
+  
+    .menu-spacer {
+      display: none; /* Hide spacer on smaller screens */
+    }
+  }
+  
+  /* Button Style */
+  .navbar-toggler {
+    display: block; /* Show button */
+    margin: 10px; /* Adjust margin as needed */
+    background-color: #007bff; /* Button color */
+    border: none;
+    padding: 10px;
+    color: white;
+  }

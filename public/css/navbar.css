@@ -1,0 +1,68 @@
+.navbar {
+    background-color: rgba(255, 255, 255, 0.24);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Container holding both brand and button */
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Brand and logo container */
+  .brand-logo-container {
+    display: flex;
+    align-items: center;
+  
+  }
+  
+  /* Logo styling */
+  .brand-logo {
+    height: 40px; /* Adjust as per your logo size */
+    width: auto;
+    margin-left: -24px;
+      margin-right: -8px;
+  }
+  
+  /* Brand Styling */
+  .navbar-brand {
+    font-size: 18px;
+    font-weight: bold;
+    color: #001d66;
+    letter-spacing: 1px;
+  }
+  
+  /* Logout button styling */
+  .logout-btn {
+    padding: 8px 20px;
+    background-color: #001d66;
+    border: 2px solid #001d66;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  .profile-logout-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-container {
+    margin-right: 17px;
+  }
+  
+  .profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 28%;
+    border: 1px solid #001d66;
+    
+  }

@@ -1,0 +1,189 @@
+
+
+body{
+    background-image:url("/public/images/index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  cover;
+    height: 100%;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+.full-height {
+    background: rgba(26, 26, 26, 0.548);
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+
+
+}
+table{
+    width: 100%;
+    padding-top: 5px;
+    
+}
+.heading-text{
+    color: white;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+.register-btn{
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+
+.edoc-logo{
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.edoc-logo-sub{
+    color: rgba(255, 255, 255, 0.733);
+    font-size: 12px;
+
+}
+.edoc-logo-sub:hover{
+  color: #f0f0f0;
+
+}
+
+
+.nav-item{
+    color: rgba(255, 255, 255, 0.671);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 10px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.nav-item:hover{
+    color: #f0f0f0;
+
+}
+
+.footer-hashen{
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
+.main-content{
+    background-image: url("/public/assets/images/doctor-index.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .logo {
+      font-size: 1.2em;
+      white-space: nowrap; 
+    }
+    .edoc-logo-sub {
+      font-size: 0.9em; /* Smaller text for mobile */
+      white-space: nowrap; 
+      padding-left:15px;
+    }
+  
+    .heading-text {
+      font-size: 1.5em;
+    }
+  
+    .sub-text2 {
+      font-size: 1em;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      font-size: 9px;
+      padding: 2px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .logo {
+      font-size: 1.2em;
+      white-space: nowrap; 
+    }
+    .edoc-logo-sub {
+      font-size: 0.9em; /* Smaller text for mobile */
+      white-space: nowrap; 
+      padding-left:15px;
+    }
+  
+    .heading-text {
+      font-size: 1.2em;
+    }
+  
+    .sub-text2 {
+      font-size: 0.9em;
+      padding: 0 10px;
+    }
+  
+    .nav-links {
+      flex-direction: column;
+    }
+  
+    .nav-item {
+      font-size: 7px;
+      padding: 2px;
+    }
+    @media (max-width: 768px) {
+      .nav-item {
+        font-size: 9px;
+        padding: 2px;
+      }
+    
+      .heading-text {
+        font-size: 1.5em;
+      }
+    
+      .sub-text2 {
+        font-size: 1em;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .nav-item {
+        font-size: 7px;
+        padding: 2px;
+      }
+    
+      .heading-text {
+        font-size: 1.2em;
+      }
+    
+      .sub-text2 {
+        font-size: 0.9em;
+        padding: 0 10px;
+      }
+    }
+  }
